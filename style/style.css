@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&family=Work+Sans:ital,wght@0,700;0,800;1,400;1,500;1,700&display=swap');
+/* shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    margin-top: 33px;
+}
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+
+
+.bannar-contant{
+    max-width:800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+.bannar-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.bannar-description{
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bannar img{
+    margin-top: 50px;
+}
