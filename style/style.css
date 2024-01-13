@@ -181,6 +181,10 @@ main{
 }
 /* media query */
 @media screen and (max-width:576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
     header{
         padding: 20px;
     }
